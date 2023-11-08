@@ -1,0 +1,21 @@
+body{
+    background-image: url("../profilovky/bg.webp") ;
+}
+
+.box{
+    height:15em;
+    width:12em;
+    background-color: #ffffff;
+}
+h1{
+    text-align: center;
+    font-size:larger;
+    text-decoration: underline;
+}
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    outline: auto;
+  }
