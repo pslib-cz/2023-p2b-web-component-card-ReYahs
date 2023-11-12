@@ -1,21 +1,46 @@
 body{
-    background-image: url("../profilovky/bg.webp") ;
+    background-image: url("../profilovky/bg.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .box{
-    height:15em;
-    width:12em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin:10px;
+    margin-top: 15em;
+    width:17em;
     background-color: #ffffff;
 }
 h1{
     text-align: center;
     font-size:larger;
-    text-decoration: underline;
+    padding: 2px;
+    border-bottom:1px solid black;
 }
 .circle {
-    height: 70px;
-    width: 70px;
-    background-color: #ffffff;
+    margin:auto;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
-    outline: auto;
-  }
+    transform: translate(0%,-50%);
+    overflow:hidden;
+}
+.circle img{
+    width:100%;
+    height: auto;
+}
+.CardText{
+    font-size: medium;
+    padding: 1em;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
